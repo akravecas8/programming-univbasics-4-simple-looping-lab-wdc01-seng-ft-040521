@@ -11,7 +11,7 @@ end
 
 def loop_message_n_times (message, limit)
   count = 0
-  while count < limit do
+  while count < limit
     puts(message)
     count += 1
   end
@@ -19,7 +19,7 @@ end
 
 def output_array(array)
   count=0
-  while count < array.size do
+  while count < array.size
     puts array[count]
     count += 1
   end
@@ -28,7 +28,7 @@ end
 def return_string_array(array)
   count=0
   new_array =[]
-  while count < array.size do
+  while count < array.size
     new_array.push(array[count].to_s)
     count += 1
   end
